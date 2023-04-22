@@ -8,9 +8,25 @@ function Best() {
           <Wrap>
           <h1>Best Selling Products</h1>
           <Prod>
-           <Product/>
-            <Product/>
-            <Product/>
+           <Product
+           title='plants1'
+           description='des1'
+           price={200}
+           image="./images/rec.png"
+           
+           
+           />
+            <Product
+            
+            title='plants2'
+           description='des2'
+           price={200}
+           image="./images/plant1.png"/>
+            <Product
+            title='plants2'
+            description='des2'
+            price={200}
+            image="./images/plant 2.png"/>
           </Prod>
             
 

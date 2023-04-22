@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Styled from 'styled-components'
 import { FiShoppingCart } from 'react-icons/fi';
 import {FiUser} from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -14,9 +15,9 @@ function Header() {
       <Logo src="/images/Logo.png"/>
 
       <NavMenu>
-        <b></b>
+        
         <a>
-          <span>Store</span>
+          <Link style={{paddingLeft: 13,color:'black' ,textDecoration: 'none'}}to="/"><span>Store</span></Link>
           
         </a>
         <a>
@@ -25,11 +26,11 @@ function Header() {
         </a>
         <a>
           
-          <span>About us</span>
+          <Link style={{paddingLeft: 13,color:'black' ,textDecoration: 'none'}}to="/about"><span>About us</span></Link>
         </a>
         <a>
           
-          <span>FAQs</span>
+        <Link style={{paddingLeft: 13,color:'black' ,textDecoration: 'none'}}to="/faqs"><span>FAQs</span></Link>
         </a>
         <a>
          
