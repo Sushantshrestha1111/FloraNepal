@@ -1,0 +1,44 @@
+.Container{
+    
+    background-color:  #BDD3C7;
+    width: 100vw;
+    margin-top: 60px;
+ 
+    left: 0;
+    right: 0;
+    bottom: 0;
+ 
+}
+.Wrap{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 35px;;
+    
+   
+
+}
+.WhiteboxContainer{
+    background-color:  white;
+    margin-left: 25px;
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+.Texts{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.Options{
+    padding:8px;
+    cursor: pointer;
+
+    
+}
+.ContactUs{
+    color: blue;
+    cursor: pointer;
+}

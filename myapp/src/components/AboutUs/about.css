@@ -1,0 +1,77 @@
+.aboutUs{
+    text-decoration: underline;
+    margin-top: 95px;
+}
+.flora{
+    margin-top: 5px;
+}
+.Aboutwrap{
+    background-color: #BDD3C7;
+    width:100vw;
+    height: 100vh;
+    margin: 0;
+    
+    
+    
+    
+
+}
+.image{
+    width: 333px;
+height: 374px;
+}
+.Description{
+
+    
+    display: flex;
+    margin-right: 55px;
+}
+.des{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.desBox{
+    display:flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .desBox {
+      
+      padding-left: 50px;
+      padding-right: 50px; /* Smaller margin for smaller screens */
+    }
+  }
+.Contaner{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 65px;
+    margin-right: 50px;
+    
+
+    
+}
+.lowerDes{
+    text-align: center;
+    justify-content: center;
+    padding-top: 29px;
+    padding-left:250px;
+    margin-top: 25px;
+    
+
+    padding-right: 250px;
+}
+@media (max-width: 768px) {
+    .lowerDes {
+      
+      padding-left: 50px;
+      padding-right: 50px; /* Smaller margin for smaller screens */
+    }
+  }
+.lower{
+    display: flex;
+    justify-Content: center;
+    
+}
