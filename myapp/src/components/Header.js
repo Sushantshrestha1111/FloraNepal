@@ -17,20 +17,20 @@ function Header() {
       <NavMenu>
         
         <a>
-          <Link style={{paddingLeft: 13,color:'black' ,textDecoration: 'none'}}to="/"><span>Store</span></Link>
+          <Link style={{paddingLeft: 5,color:'black' ,textDecoration: 'none'}}to="/"><span>Store</span></Link>
           
         </a>
         <a>
           
-          <span>Product</span>
+        <Link style={{paddingLeft: 5,color:'black' ,textDecoration: 'none'}}to="/product"><span>Product</span></Link>
         </a>
         <a>
           
-          <Link style={{paddingLeft: 13,color:'black' ,textDecoration: 'none'}}to="/about"><span>About us</span></Link>
+          <Link style={{paddingLeft: 5,color:'black' ,textDecoration: 'none'}}to="/about"><span>About us</span></Link>
         </a>
         <a>
           
-        <Link style={{paddingLeft: 13,color:'black' ,textDecoration: 'none'}}to="/faqs"><span>FAQs</span></Link>
+        <Link style={{paddingLeft: 5,color:'black' ,textDecoration: 'none'}}to="/faqs"><span>FAQs</span></Link>
         </a>
         <a>
          

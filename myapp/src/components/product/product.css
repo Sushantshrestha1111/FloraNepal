@@ -1,3 +1,28 @@
+.details{
+  
+  padding-top: 35px;
+ 
+
+  width: fit-content;
+  justify-content: space-between;
+}
+
+.detla{
+  margin: 5px;
+  display: flex;
+  
+  font-size: 24px;
+  margin-right: 20px;
+}
+.dheba{
+  margin: 30px;
+  margin-left: 115px;
+  font-size: 20px;
+  font-weight: bold;
+  
+  
+  
+}
 .card {
     width: 300px;
     height: 300px;
@@ -43,8 +68,9 @@
    
    /*Text*/
    .text-title {
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: bold;
+    padding-left: 18px;
    }
    
    
@@ -62,4 +88,7 @@
   object-fit: contain;
   border-radius: 10px;
    }
+ 
+
+   
   

@@ -1,0 +1,14 @@
+.productpage{
+    margin-top: 85px;
+    height:100;
+    width:100vw;
+    background-color:#BDD3C7 ;
+    position:absolute;
+    top:0;
+    bottom:0;
+
+}
+
+.itemsrow{
+    display:flex
+}

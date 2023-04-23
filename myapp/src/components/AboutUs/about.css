@@ -73,5 +73,6 @@ height: 374px;
 .lower{
     display: flex;
     justify-Content: center;
+    background-color: white;
     
 }

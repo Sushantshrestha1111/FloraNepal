@@ -15,6 +15,7 @@ import {
   Link
 } from "react-router-dom";import Contactus from './components/ContactUs/Contactus';
 import SignupForm from './components/SignupForm/SignupForm';
+import Productpage from './components/ProductPage/Productpage';
 ;
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/product" element={<Productpage/>}/>
         <Route path="/faqs" element={<Faqs/>}/>
         <Route path="/contactus" element={<Contactus/>}/>
         <Route path="/signupform" element={<SignupForm/>}/>
