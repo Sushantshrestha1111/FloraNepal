@@ -1,5 +1,6 @@
 import React from 'react'
 import'./faqs.css'
+import BtShit from '../BottomShit/BtShit'
 
 function Faqs() {
   return (
@@ -28,6 +29,7 @@ function Faqs() {
         
 
       </div>
+      <BtShit/>
         
         
         

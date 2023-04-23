@@ -34,13 +34,13 @@ function Header() {
         </a>
         <a>
          
-          <span>Contact Us</span>
+        <Link style={{paddingLeft: 13,color:'black' ,textDecoration: 'none'}}to="/contactus"><span>Contact Us</span></Link>
         </a>
         <Icons><FiShoppingCart size={22}/>
         
         </Icons>
         <Icons>
-        <FiUser size={22}/>
+        <Link style={{paddingLeft: 13,color:'black' ,textDecoration: 'none'}}to="/signupform"><FiUser size={22}/></Link>
         </Icons>
         
       </NavMenu>

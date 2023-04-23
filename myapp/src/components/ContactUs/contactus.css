@@ -1,0 +1,30 @@
+
+.Contactwrap{
+    margin-left: 25px;
+    
+
+}
+.form-group{
+    
+}
+.inputn{
+    margin:10px;
+    border-radius: 15px;
+    height:25px;
+
+}
+.phone{
+    margin:10px;
+    border-radius: 15px;
+    width:190px;
+    height:25px;
+
+}
+.comment{
+    margin:10px;
+    border-radius: 15px;
+    width:200px;
+    height:90px;
+
+}
+

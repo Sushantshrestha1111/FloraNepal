@@ -7,12 +7,15 @@ import Section from './components/Section';
 import Best from './components/Best';
 import About from'./components/AboutUs/About'
 import Faqs from './components/Faqs/Faqs';
+
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Link
-} from "react-router-dom";;
+} from "react-router-dom";import Contactus from './components/ContactUs/Contactus';
+import SignupForm from './components/SignupForm/SignupForm';
+;
 function App() {
   return (
     <div className="App">
@@ -23,6 +26,9 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/faqs" element={<Faqs/>}/>
+        <Route path="/contactus" element={<Contactus/>}/>
+        <Route path="/signupform" element={<SignupForm/>}/>
+
       </Routes>
       </Router>
       
